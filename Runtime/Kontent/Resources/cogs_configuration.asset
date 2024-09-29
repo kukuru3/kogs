@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e821a795709b74496412ae18924703, type: 3}
+  m_Name: cogs_configuration
+  m_EditorClassIdentifier: 
+  <CanvasPrefab>k__BackingField: {fileID: 4429374985729030349, guid: 847204d059118cf46a3bc364b079de56, type: 3}
+  <CategoryPanelPrefab>k__BackingField: {fileID: 2013792600777483777, guid: 5b31e817428e7e34ba6cf038ef1aacb4, type: 3}
+  <LabelPrefab>k__BackingField: {fileID: 7179611336147288659, guid: 26d15fc2c0bf37f4b9035b45e52279ad, type: 3}
+  <BarPrefab>k__BackingField: {fileID: 3580789410714683933, guid: 620612c40be85bd4aa6bf419265309ba, type: 3}
+  <GraphPrefab>k__BackingField: {fileID: 5162174449461353575, guid: 72a3f994b4f3ce54284eba9548d811c7, type: 3}
+  <ShortcutItemPrefab>k__BackingField: {fileID: 4750485287449056064, guid: 72b12fb7a36e3af41a885294d733fab3, type: 3}
+  <LampPrefab>k__BackingField: {fileID: 6203618478432482386, guid: 0119695c2e9252c458e7b72cd5fc87e9, type: 3}
