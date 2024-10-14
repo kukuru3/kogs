@@ -13,18 +13,18 @@ namespace Kukuru3.Kogs {
         void Tick();
     }
 
-    internal abstract class KogsKomponent {
-        protected KogsModule Module { get; private set; }
-        internal void InjectModule(KogsModule kogsModule) {
-            this.Module = kogsModule;
-            Launch();
-        }
+    //internal abstract class KogsKomponent {
+    //    protected KogsModule Module { get; private set; }
+    //    internal void InjectModule(KogsModule kogsModule) {
+    //        this.Module = kogsModule;
+    //        Launch();
+    //    }
 
-        protected virtual void Launch() { }
-        protected virtual void Teardown() { }
+    //    protected virtual void Launch() { }
+    //    protected virtual void Teardown() { }
         
-        protected T GetModuleComponent<T>() => Module.GetModuleComponent<T>();
-        internal void Release() => Teardown();
-    }
+    //    protected T GetModuleComponent<T>() => Module.GetModuleComponent<T>();
+    //    internal void Release() => Teardown();
+    //}
 }
 #endif

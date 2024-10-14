@@ -5,7 +5,7 @@
     "description": "Debug shortcuts and utilities on demand",
     "unity": "2020.1",
     "dependencies": {
-        "com.k3.core" : "1.2.0"
+        "k3.core" : "1.2.0"
     },
     "keywords": [
       "boobs"

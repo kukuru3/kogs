@@ -46,5 +46,7 @@ namespace Kukuru3.Kogs {
 
         internal static void SetActiveCategory(string category) => canvas.SetActivePanel(category);
         internal static void Clear(string category) { canvas.ClearPanel(category); }
+
+        internal static CogsDiagnosticsDisplay GetDisplay() => canvas;
     }
 }
